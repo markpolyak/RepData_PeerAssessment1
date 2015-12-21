@@ -174,7 +174,7 @@ ggplot(df_filled_avg, aes(interval, steps)) +
     geom_line() + 
     facet_grid(dateType ~ .) +
     xlab("5-minute interval") + 
-    ylab("Avarage number of steps")
+    ylab("Average number of steps")
 ```
 
 ![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
